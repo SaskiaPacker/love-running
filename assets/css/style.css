@@ -39,15 +39,10 @@ h2 {
     line-height: 75px;
 }
 
-#menu ul {
+#menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
-}
-
-ul>li {
-    float: left;
-    margin-right: 30px
 }
 
 #menu a {
@@ -226,4 +221,25 @@ hr {
 
 #times h2 {
     color: #fafafa;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
